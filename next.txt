@@ -1,7 +1,8 @@
 what is next.js?
 next js is javascript framework for building web applications
 when we are using react alone it is not possible to create fully fussible applications for production
-next.js uses the react for user interfaces and provide the additional feature for fully production ready applications
+next.js uses the react for user interfaces and provide the additional feature for fully production ready 
+applications
 
 
 why next.js?
@@ -12,3 +13,34 @@ it simplifies the development of appliocation for the production
 4)Data fetching
 5)Styling
 6)Optimization
+
+
+React server component?
+React server componet is new arcitecture intriduced by the react team in version 18 which is quickly 
+embraced by the next.js
+The achitecture introduces a new way of creating react component,splitting them into two types:
+--server component
+--client component
+
+
+1)server component:
+in next.js all componet are server based componet by default
+They have the ability to run the task like reading the file are fetching the data from the database
+however they dont have ability to use hooks or handle intrations
+
+2)clinet component
+To create a client component it's neccessary to add "use client" at the top of the component file
+the client componet can't perform th task like reading file but they have the ability to use the hooks and manage 
+intrations
+
+
+Routing:
+next.js has file-based system routing mechanism
+URL paths that user can access in browser are defined by file and folders  inyour code based
+
+
+Routing convetions:
+All Route must be placed inside the App folders
+Every file that corresponds to the route must be named page.js or page.tsx
+
+Every folder corresponds to path segment in the browser URL
