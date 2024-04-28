@@ -1,0 +1,10 @@
+what is next.js?
+next js is javascript framework for building web applications
+when we are using react alone it is not possible to create fully fussible applications for production
+next.js uses the react for user interfaces and provide the additional feature for fully production ready applications
+
+
+why next.js?
+it simplifies the development of appliocation for the production
+1)Routing
+2)API Routes
