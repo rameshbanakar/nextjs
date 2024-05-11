@@ -44,3 +44,23 @@ All Route must be placed inside the App folders
 Every file that corresponds to the route must be named page.js or page.tsx
 
 Every folder corresponds to path segment in the browser URL
+
+
+
+private folder:
+A private folder indiacate that  it is a private implementation details and should not be considered by the routing system
+
+the folder and all subfolder excluded from the routing
+prefix the folder name with an underscore
+
+
+private folder contd:
+
+for separating UI logic from the routing logic
+for consistently organising internal folders across the project
+for sorting and grouping in the code editor
+And finally for avoiding potential naming conflict with the future next.js file convetions
+
+
+Route groups:
+allows us to logically group our routes and project fies without affeting the URL path structure
