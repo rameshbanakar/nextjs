@@ -78,3 +78,6 @@ META data rules
 Both layout.tsx and page.tsx files can export metadata. if defined in a layout it applies to all pages in that layout but if defined in a
 pages in that layout
 
+Navigation:
+------------
+File based routing
