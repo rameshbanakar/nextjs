@@ -64,3 +64,17 @@ And finally for avoiding potential naming conflict with the future next.js file 
 
 Route groups:
 allows us to logically group our routes and project fies without affeting the URL path structure
+
+
+Routing META data
+Ensuring proper search engine optimization is cricial for increasing visibility and attracting users
+meta deta ensures accurate and relevent information is displayed when your pages are shared or indexed
+
+configuring the META data
+export a stastic meta data object 
+export dynamic data object
+
+META data rules 
+Both layout.tsx and page.tsx files can export metadata. if defined in a layout it applies to all pages in that layout but if defined in a
+pages in that layout
+
